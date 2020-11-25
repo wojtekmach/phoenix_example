@@ -1,0 +1,23 @@
+{
+  "buildpacks": [
+    {
+      "url": "https://github.com/HashNuke/heroku-buildpack-elixir.git"
+    },
+    {
+      "url": "https://github.com/gjaldon/heroku-buildpack-phoenix-static.git"
+    }
+  ],
+  "env": {
+    "SECRET_KEY_BASE": {
+      "description": "A secret key for verifying the integrity of signed cookies.",
+      "generator": "secret"
+    },
+    "POOL_SIZE": {
+      "description": "Database pool size.",
+      "value": "10"
+    }
+  },
+  "addons": [
+    "heroku-postgresql:hobby-dev"
+  ]
+}
