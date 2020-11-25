@@ -15,6 +15,8 @@ Ready to run in production? Please [check our deployment guides](https://hexdocs
 
 [![Deploy to DO](https://mp-assets1.sfo2.digitaloceanspaces.com/deploy-to-do/do-btn-blue.svg)](https://cloud.digitalocean.com/apps/new?repo=https://github.com/wojtekmach/phoenix_example/tree/master)
 
+[![Run on Google Cloud](https://deploy.cloud.run/button.svg)](https://deploy.cloud.run)
+
 ## Learn more
 
   * Official website: https://www.phoenixframework.org/
