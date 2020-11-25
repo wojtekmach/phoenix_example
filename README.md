@@ -13,6 +13,8 @@ Ready to run in production? Please [check our deployment guides](https://hexdocs
 
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy)
 
+[![Deploy to DO](https://mp-assets1.sfo2.digitaloceanspaces.com/deploy-to-do/do-btn-blue.svg)](https://cloud.digitalocean.com/apps/new?repo=https://github.com/wojtekmach/phoenix_example/tree/master)
+
 ## Learn more
 
   * Official website: https://www.phoenixframework.org/
