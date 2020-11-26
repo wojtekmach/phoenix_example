@@ -1,4 +1,4 @@
-use Mix.Config
+import Config
 
 # Configure your database
 config :phoenix_example, PhoenixExample.Repo,
@@ -16,6 +16,7 @@ config :phoenix_example, PhoenixExample.Repo,
 # watchers to your application. For example, we use it
 # with webpack to recompile .js and .css sources.
 config :phoenix_example, PhoenixExampleWeb.Endpoint,
+  url: [host: "localhost"],
   http: [port: 4000],
   debug_errors: true,
   code_reloader: true,
