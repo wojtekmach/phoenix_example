@@ -1,0 +1,20 @@
+spec:
+  name: "phoenix-example"
+  services:
+  - name: "web"
+    dockerfile_path: "Dockerfile"
+    git:
+      branch: "digitalocean"
+      repo_clone_url: "https://github.com/wojtekmach/phoenix_example.git"
+    envs:
+    - key: "SECRET_KEY_BASE"
+    - key: "POOL_SIZE"
+      value: "10"
+    - key: "APP_DOMAIN"
+      value: "${APP_DOMAIN}"
+    - key: "DATABASE_URL"
+      value: "${db.DATABASE_URL}"
+  databases:
+  - name: "db"
+    engine: "PG"
+    production: false
