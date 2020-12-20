@@ -25,6 +25,14 @@ Now you can visit [`localhost:4000`](http://localhost:4000) from your browser.
 
 Use `mix phx.gen.secret` to generate a secret appropriate for the `SECRET_KEY_BASE` environment variable.
 
+### Render
+
+[Diff](https://github.com/wojtekmach/phoenix_example/compare/render)
+
+[![Deploy to Render](https://render.com/images/deploy-to-render-button.svg)](https://render.com/deploy?repo=https://github.com/wojtekmach/phoenix_example&branch=render)
+
+Use `mix phx.gen.secret` to generate a secret appropriate for the `SECRET_KEY_BASE` environment variable.
+
 ## Learn more
 
   * Official website: https://www.phoenixframework.org/
