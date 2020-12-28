@@ -2,15 +2,6 @@
 
 An example Phoenix app with one-click deployments to different cloud services.
 
-To start your Phoenix server:
-
-  * Install dependencies with `mix deps.get`
-  * Create and migrate your database with `mix ecto.setup`
-  * Install Node.js dependencies with `npm install` inside the `assets` directory
-  * Start Phoenix endpoint with `mix phx.server`
-
-Now you can visit [`localhost:4000`](http://localhost:4000) from your browser.
-
 ## Deployment
 
 ### Heroku
@@ -34,6 +25,17 @@ Use `mix phx.gen.secret` to generate a secret appropriate for the `SECRET_KEY_BA
 [![Deploy to Render](https://render.com/images/deploy-to-render-button.svg)](https://render.com/deploy?repo=https://github.com/wojtekmach/phoenix_example&branch=render)
 
 Use `mix phx.gen.secret` to generate a secret appropriate for the `SECRET_KEY_BASE` environment variable.
+
+## Usage
+
+To start your Phoenix server:
+
+  * Install dependencies with `mix deps.get`
+  * Create and migrate your database with `mix ecto.setup`
+  * Install Node.js dependencies with `npm install` inside the `assets` directory
+  * Start Phoenix endpoint with `mix phx.server`
+
+Now you can visit [`localhost:4000`](http://localhost:4000) from your browser.
 
 ## Learn more
 
