@@ -1,5 +1,7 @@
 # PhoenixExample
 
+An example Phoenix app with one-click deployments to different cloud services.
+
 To start your Phoenix server:
 
   * Install dependencies with `mix deps.get`
